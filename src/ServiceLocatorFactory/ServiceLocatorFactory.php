@@ -3,7 +3,7 @@
 namespace ServiceLocatorFactory;
 
 use ServiceLocatorFactory\NullServiceLocatorException;
-use Zend\ServiceManager\ServiceManager;
+use Laminas\ServiceManager\ServiceManager;
 
 class ServiceLocatorFactory
 {
@@ -19,7 +19,7 @@ class ServiceLocatorFactory
     
     /**
      * @throw ServiceLocatorFactory\NullServiceLocatorException
-     * @return Zend\ServiceManager\ServiceManager
+     * @return Laminas\ServiceManager\ServiceManager
      */
     public static function getInstance()
     {

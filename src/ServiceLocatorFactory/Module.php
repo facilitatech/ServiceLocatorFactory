@@ -1,9 +1,10 @@
 <?php
+
 namespace ServiceLocatorFactory;
 
-use Zend\Loader\AutoloaderFactory;
-use Zend\Loader\StandardAutoloader;
-use Zend\Mvc\MvcEvent;
+use Laminas\Loader\AutoloaderFactory;
+use Laminas\Loader\StandardAutoloader;
+use Laminas\Mvc\MvcEvent;
 
 class Module
 {
