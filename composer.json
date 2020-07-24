@@ -15,8 +15,8 @@
     ],
     "require": {
         "php": ">=5.6.0",
-        "laminas/laminas-loader": "2.4.*",
-        "laminas/laminas-mvc": "2.4.*"
+        "laminas/laminas-loader": "2.*",
+        "laminas/laminas-mvc": "2.*"
     },
     "autoload": {
         "psr-0": {
